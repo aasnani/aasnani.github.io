@@ -129,7 +129,7 @@ body {
 
 #company-profile-p {
     margin-left: 2rem;
-    font-size: 2.5vw;
+    font-size: min(2.5vw, 4.5vh);
     font-family: 'Arial MT', sans-serif;
     color: rgb(88	88	88	);
     font-style: italic;
@@ -173,11 +173,11 @@ body {
 }
 
 #about-us-text-1{
-    font-size: 1.8vw;
+    font-size: min(1.8vw, 3.3vh);
 }
 
 #about-us-text-2{
-    font-size: 1.56vw;
+    font-size: min(1.56vw, 3vh);
     margin-left: 1rem;
 }
 
@@ -346,7 +346,7 @@ body {
 }
 
 #partners-text{
-    font-size: 1.85vw;
+    font-size: min(1.85vw, 3.4vh);
     padding: 4rem;
     font-family: 'Arial MT', sans-serif;
     color: rgb(100,100,100);
@@ -566,14 +566,14 @@ body {
 #vision-text {
     text-align: justify;
     margin-left: 2rem;
-    font-size: 1.85vw;
+    font-size: min(1.85vw, 3.4vh);
     padding-right: 8rem;
     color: rgb(100,100,100)
 }
 
 #mission-text{
     margin-right: 2rem;
-    font-size: 1.85vw;
+    font-size: min(1.85vw, 3.4vh);
     padding-left: 4rem;
     color: rgb(241,241,241);
     text-align: justify;
@@ -622,6 +622,7 @@ body {
 #about-top-img {
     /* padding-left: 2rem; */
     height: 100%;
+    width: 100%;
 }
 
 #about-bottom-img {
@@ -700,13 +701,13 @@ body {
 #services-text{
     margin-left: 2em;
     color: rgb(100,100,100);
-    font-size: 1.6vw;
+    font-size: min(1.6vw, 3vh);
 }
 
 #services-text-list{
     margin-left: 3em;
     color: rgb(100,100,100);
-    font-size: 1.6vw;
+    font-size: min(1.6vw, 3vh);
 }
 
 #logistics-services-header{
@@ -730,20 +731,20 @@ body {
     text-align: right;
     color: rgb(64, 64, 64);
     margin-right: 2rem;
-    font-size: 3.6vw;
+    font-size: min(3.6vw, 6.1vh);
 }
 
 #contact-header-4{
     text-align: right;
     color: rgb(211 80 0 );
     margin-right: 2rem;
-    font-size: 1.9vw;
+    font-size: min(1.9vw, 3.6vh);
     padding-top: 0.4rem;
     font-weight: bold;
 }
 
 #contact-img{
-    width: 70%;
+    width: min(27vw, 60vh);
     height: auto;
     margin: auto;
     margin-top:2rem;
@@ -769,7 +770,7 @@ body {
     margin-top: 2rem;
     margin-right: 2rem;
     text-align: right;
-    font-size: 1.95vw;
+    font-size: min(1.95vw, 3.7vh)
 }
 
 #contact-head-name, #contact-head-number{
