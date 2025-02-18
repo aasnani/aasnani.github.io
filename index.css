@@ -120,6 +120,7 @@ body {
     margin-left: 2.5rem;
     font-weight: bold;
     font-family: 'Arial MT', sans-serif;
+    font-size: min(2.2vw, 4.8vh);
     /* padding-top: 10vh; */
 }
 
@@ -137,9 +138,8 @@ body {
 }
 
 #company-profile-text {
+    margin-top: 40vh;
     width: 100%;
-    position: absolute;
-    bottom: 10vh;
 }
 
 :nth-child(1 of .about-us-text-col){
