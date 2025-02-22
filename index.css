@@ -744,7 +744,7 @@ body {
 }
 
 #contact-img{
-    width: min(27vw, 60vh);
+    width: min(27vw, 50vh);
     height: auto;
     margin: auto;
     margin-top:2rem;
@@ -783,7 +783,7 @@ body {
     text-align: center;
     color: rgb(64, 64, 64);
     margin-right: 2rem;
-    font-size: min(3.5vw, 6vh);
+    font-size: min(3.5vw, 5.5vh);
     font-family: 'Arial MT', sans-serif;
 }
 
@@ -797,14 +797,14 @@ body {
 #contact-branch-text{
     text-align: left;
     margin-left: 2rem;
-    font-size: min(1.51vw, 3.1vh);
+    font-size: min(1.51vw, 2.6vh);
     min-width: 50%;
     font-family: 'Arial MT', sans-serif;
     color: rgb(100,100,100)
 }
 
 .branch-office-row{
-    margin-top: 2rem;
+    margin-top: 1.3rem;
 }
 
 .branch-column {
